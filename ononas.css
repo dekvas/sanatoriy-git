@@ -1,0 +1,193 @@
+body{
+    background:#f5f5f5; 
+    font-family: "Play-Regular";
+  }
+  
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:"RonduitCapitals-Light";
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+  }
+  
+  #wrapper{ 
+    width: 900px; 
+    margin: 0 auto;
+    background: #f5f5f5; 
+  }
+  @font-face {
+    font-family: "Play-Regular";
+    src: url(JovannyLemonadBender.otf) format('truetype')
+  }
+  @font-face {
+    font-family: "RonduitCapitals-Light";
+    src: url(RonduitCapitals-Light.otf) format('truetype')
+  }
+
+a{
+text-decoration: none;
+transition: transform 0.3s;
+}  
+a:hover {
+    color: #CE242B; 
+    text-decoration: underline; 
+    transform: scale(1.2);
+   }
+  #header{
+  position:relative; 
+    height: 200px; 
+    background-color: #f5f5f5; 
+     margin-bottom: 5px; 
+  }
+  #logo1{ 
+    margin: -14vh 0% 0% 0%;
+   }
+#logo3{ 
+  
+    margin: -0vh 0px 0 70%;
+} 
+
+
+
+#zagolovok{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    grid-gap: 20px;
+    justify-content: space-between;
+    margin:0% 20% 10px 40px; 
+    font-size: 28px;
+}
+
+.knopki{
+    color:#464451;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.nomer{ 
+    position:absolute; 
+    top:14vh; 
+    left:680px; 
+    font-size: 25px; 
+    font-style:italic; 
+    font-weight:bold; 
+    color:#70d9e7; 
+    text-decoration: none;
+  }
+  
+  
+  
+  #sidebar{ 
+    background-color: #ffffff; 
+    width: 180px; 
+    padding: 10px; 
+    float: right; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+  }
+  .marcer{ 
+    float: left; 
+    margin: 5px 5px 0 0; 
+    transition: transform 0.3s;
+  }
+  
+ 
+  
+  #content{ 
+    margin-bottom: 5px; 
+    width: 676px; 
+    padding: 10px; 
+    background: #ffffff; 
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  }
+  .left{ 
+    float: left;
+    margin: 23px 7px 7px 7px;
+    max-width: 50%;
+}
+
+  .right{ 
+    float: right;
+    margin: 7px 0 7px 7px;
+    max-width: 210px;
+  }
+
+#priv{
+color: #CE242B;
+}
+
+
+  #footer{ 
+    height:80px; 
+    background-color: #ffffff; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+    width: 77.5%;
+
+}
+#anonce{
+color: red;
+}
+.clear{ 
+    clear: both;
+}
+
+.fon{ 
+    float:left; 
+    margin:20px 0 0 20px;
+}
+
+.fax{ 
+    float:left;
+    margin:20px 0 0 60px;
+}
+
+.mail{ 
+    float:left;
+   margin:20px 0 0 60px;
+}
+
+
+
+
+.leader{
+color: #464451;
+font-size: 70%;
+}
+
+.leader a {
+    padding: 3px 25px;
+    margin-bottom: 10%;
+    margin-left: 41%;
+    font-size: 14px;
+    line-height: 27px;
+    background: #fc0;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+#glav{
+    color: red;
+    text-align: top;
+    text-align: center;
+    font-size: 30px;
+   }
